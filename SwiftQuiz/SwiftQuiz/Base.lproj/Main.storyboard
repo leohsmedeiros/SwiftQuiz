@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="17G65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,7 +18,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="ZYL-pR-QN4">
@@ -26,7 +26,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="msz-5i-pLR">
-                                <rect key="frame" x="0.0" y="567" width="375" height="60"/>
+                                <rect key="frame" x="-27" y="90" width="375" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                 <state key="normal" title="Começar">
@@ -53,7 +53,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Foq-2f-OHQ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nYe-x5-veE">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TAy-ar-OYd">
@@ -149,7 +149,7 @@
                         <outletCollection property="btAnswers" destination="3R9-Ri-53J" collectionClass="NSMutableArray" id="JeC-7p-1qs"/>
                         <outletCollection property="btAnswers" destination="ByA-m4-lg7" collectionClass="NSMutableArray" id="MsV-HA-drL"/>
                         <outletCollection property="btAnswers" destination="kA7-Fa-22F" collectionClass="NSMutableArray" id="OH9-se-dre"/>
-                        <segue destination="wAj-H8-P3e" kind="show" id="etL-iy-m6Q"/>
+                        <segue destination="wAj-H8-P3e" kind="show" identifier="resultSegue" id="etL-iy-m6Q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fha-RU-qKQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -165,7 +165,7 @@
                         <viewControllerLayoutGuide type="bottom" id="BW3-sn-A67"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="jaT-at-G0m">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Resultado" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hEC-BK-soh">

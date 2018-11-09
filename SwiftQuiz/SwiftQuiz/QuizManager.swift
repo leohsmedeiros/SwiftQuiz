@@ -66,4 +66,11 @@ class QuizManager {
         quiz = Quiz(question: quizData.question, options: quizData.options, correctedAnswer: quizData.correctAnswer)
     }
     
+    func validateAnswer (index: Int) {
+        _totalAnswers += 1
+        if quiz.validateOptions(index) {
+            _totalCorrectAnswers += 1
+        }
+    }
+    
 }
